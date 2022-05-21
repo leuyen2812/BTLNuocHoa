@@ -1,0 +1,78 @@
+﻿
+table {
+    width: 70%;
+   
+    border: 1px solid;
+}
+input {
+    width: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+.giohang table tr td {
+    padding: 5px 15px;
+}
+img#img-feature {
+    width: 70%;
+}
+td#anh_sp {
+    width: 200px;
+}
+
+td#ten_sp {
+    width: 400px;
+    text-align: left;
+}
+
+.td {
+    color: #07503d;
+    margin-left: 150px;
+    border: 2px
+}
+
+.khung {
+    margin: auto;
+    border-spacing: 0px 15px;
+    padding: 0px 15px;
+    text-align: center;
+    color: #07503d;
+    font-size: 20px;
+}
+
+    .khung tr td {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .khung.tieude.sl {
+        width: 70px;
+    }
+
+ttoan {
+    direction: rtl;
+    margin: 10px 320px 70px 0px;
+}
+
+.ttoan button {
+    color: #15683a;
+}
+button#ttoan {
+    padding: 50px 0 0 0;
+    background-color: #07503d;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /*text-align: center;*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.tongtien {
+    display: flex;
+    padding: 0 30px 30px 30px;
+}
+span {
+    padding: 0 0 0 10px;
+}

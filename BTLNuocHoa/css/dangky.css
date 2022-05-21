@@ -1,0 +1,77 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../anh/nendangkydangnhap.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_register {
+    max-width: 500px;
+}
+
+.content_main {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.title {
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.content {
+}
+
+.content_input input {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    padding: 9px 10px 9px 10px;
+    display: block;
+}
+
+.content_input span {
+    display: none;
+    color: #ff0000;
+}
+
+.moved_on {
+    float: right;
+    margin-top: 10px;
+}
+
+    .moved_on a {
+        text-decoration: none;
+        color: #0288d1;
+    }
+
+.inpsubmit {
+    background-color: #0288d1;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #0288d1;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 0;
+    border-radius: 3px;
+}
+
+.notice_policy {
+    text-align: center;
+    color: #707070;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

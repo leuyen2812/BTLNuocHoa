@@ -1,0 +1,114 @@
+﻿body {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    /* căn giữa */
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    padding: 0 0 60px 0;
+}
+
+.content-border {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.content_left {
+    padding: 15px 0 0 0;
+}
+
+.content_left--img {
+    width: 360px;
+    height: 360px;
+}
+
+.content_right {
+    padding: 15px 0 0 0;
+}
+
+.right-heading {
+}
+
+.right-price {
+    padding: 10px 0;
+}
+
+.right-description {
+    font-size: 18px;
+    padding: 10px 0 20px 0;
+}
+
+.right-capacity {
+}
+
+capacity-heading {
+    padding-bottom: 10px;
+}
+
+.btn_DungTich {
+    padding: 8px;
+    margin: 25px 0;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+    .btn_DungTich:hover {
+        cursor: pointer;
+        border: 1px solid #000;
+        background-color: #07503d;
+        color: #fff;
+    }
+
+.right-add-Cart {
+    margin: 10px 0 0 0;
+}
+
+.btn-add-Cart {
+    padding: 15px;
+    background-color: #07503d;
+    width: 250px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+    .btn-add-Cart:hover {
+        cursor: pointer;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+    }
+
+.span-add-Cart {
+}
+
+.btn-buy {
+    width: 250px;
+    padding: 15px 37px;
+    margin-left: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+    .btn-buy:hover {
+        cursor: pointer;
+        border: 1px solid #000;
+        background-color: #07503d;
+        color: #fff;
+    }
